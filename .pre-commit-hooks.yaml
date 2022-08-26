@@ -3,8 +3,8 @@
     description: Run any python command, use additional_dependencies to add necessary packages.
     entry: run-python
     language: python
--   id: run-javascript
-    name: Run javascript
-    description: Run any javascript command, use additional_dependencies to add necessary packages.
-    entry: run-javascript
+-   id: run-node
+    name: Run node
+    description: Run any node command, use additional_dependencies to add necessary packages.
+    entry: run-node
     language: node

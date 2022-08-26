@@ -1,8 +1,8 @@
 {
   "name": "pre-commit-run-cmd",
   "version": "0.1.0",
-  "description": "Run any javascript command",
-  "main": "run_javascript/cli.js",
+  "description": "Run any node command",
+  "main": "run_node/cli.js",
   "directories": {
     "test": "test"
   },
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "run-javascript": "./run_javascript/cli.js"
+    "run-javascript": "run_node/cli.js"
   },
   "author": "David Danier <danier@team23.de>",
   "license": "MIT"
