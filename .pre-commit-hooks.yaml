@@ -7,4 +7,4 @@
     name: Run javascript
     description: Run any javascript command, use additional_dependencies to add necessary packages.
     entry: run-javascript
-    language: python
+    language: node
