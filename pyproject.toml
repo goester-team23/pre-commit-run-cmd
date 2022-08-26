@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "Run any python command"
 authors = ["David Danier <danier@team23.de>"]
 license = "MIT"
+packages = [
+    { include = "run_python" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
