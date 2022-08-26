@@ -1,0 +1,5 @@
+-   id: run-python
+    name: Run python
+    description: Run any python command, use additional_dependencies to add necessary packages.
+    entry: run-python
+    language: python
