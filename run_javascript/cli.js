@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { execFile } = require('node:child_process');
 
 if (process.argv.length < 3) {
