@@ -12,7 +12,7 @@ Example config showing this:
 ```yaml
 repos:
   - repo: https://github.com/ddanier/pre-commit-run-cmd.git
-    rev: v0.1.0
+    rev: v0.1.1
     hooks:
       - id: run-python
         name: "flake8"
@@ -21,7 +21,7 @@ repos:
           - flake8
         types: [python]
   - repo: https://github.com/ddanier/pre-commit-run-cmd.git
-    rev: v0.1.0
+    rev: v0.1.1
     hooks:
       - id: run-node
         name: "eslint"
