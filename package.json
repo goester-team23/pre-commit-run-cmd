@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "run-javascript": "run_node/cli.js"
+    "run-node": "run_node/cli.js"
   },
   "author": "David Danier <danier@team23.de>",
   "license": "MIT"
