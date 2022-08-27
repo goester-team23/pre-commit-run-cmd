@@ -11,6 +11,12 @@ let cmd = process.argv[2];
 let args = process.argv.slice(3);
 
 execFile(cmd, args, (err, stdout, stderr) => {
+  console.log("---err---");
+  console.log(err);
+  console.log("---stdout---");
+  console.log(stdout);
+  console.log("---stderr---");
+  console.log(stderr);
   if (err) {
     console.error(err);
     process.exit(1);
